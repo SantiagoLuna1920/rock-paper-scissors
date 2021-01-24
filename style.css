@@ -5,20 +5,102 @@
 }
 
 #container {
-    border: solid red 1px;
+    /* height: 100vh;
+    background-image: url("https://media.giphy.com/media/l0O9yfMgf4MpEjct2/giphy.gif"); 
+    background-position: center 25%; 
+    background-size: cover;  */
     height: 100vh;
+    background: linear-gradient(#e4e9e4, rgb(80, 76, 76));
 }
+
+#container-move {
+    display: flex;
+    position: relative;
+    top: 30px;
+    justify-content: space-around;
+    /* border: solid red 1px; */
+    text-align: center;
+}
+
+
 
 #human {
     width: 40%;
-    height: 40vh;
-    border: solid black 1px;
+    height: 60vh;
+    border-radius: 10px;
+    color: white;
+    /* border: solid black 1px; */
+    background-color: rgb(119, 114, 114);
 }
 
 .interfaceHuman {
-
+    /* border: solid black; */
 }
 
 .scoreHuman {
+    background: linear-gradient(rgb(175, 185, 175), rgb(255, 254, 254));
+    height: 350px;
+
+}
+
+.scoreH {
+    height: 150px;
+    background: linear-gradient(rgb(91, 94, 91), rgb(255, 254, 254));
+    position: absolute;
+    top: 220px;
+    width: 20%;
+    left: 5.6%;
+    border-top-right-radius: 50%;
+}
+
+#computer {
+    width: 40%;
+    height: 60vh;
+    color: white;
+    background-color: rgb(126, 117, 117);
+    border-radius: 10px;
+}
+
+.interfaceComputer {
     
+}
+
+.scoreComputer {
+    background: linear-gradient(rgb(175, 185, 175), rgb(255, 254, 254));
+    height: 350px;
+}
+
+.scoreC {
+    height: 150px;
+    background: linear-gradient(rgb(91, 94, 91), rgb(255, 254, 254));
+    position: absolute;
+    top: 220px;
+    left: 74%;
+    width: 20%;
+    border-top-left-radius: 50%;
+}
+
+#congratulations {
+    position: relative;
+    font-size: 70px;
+    top: 80px;
+    color: white;
+    text-align: center;
+}
+
+.animation {
+    animation-name: tatis;
+    animation-duration: 5s;
+}
+
+@keyframes tatis {
+    0%{
+        font-size: 10px;
+    }
+    25% {
+        height: 40px;
+    }
+    100% {
+        font-size: 70px;
+    }
 }
