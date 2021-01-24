@@ -1,0 +1,3 @@
+Su juego se jugará contra la computadora, así que comience con una función llamada computerPlayque devolverá aleatoriamente 'Piedra', 'Papel' o 'Tijeras'. Usaremos esta función en el juego para hacer que la computadora juegue.
+Escribe una función que reproduzca una sola ronda de Piedra Papel Tijeras. La función debe tomar dos parámetros, el playerSelectiony computerSelection, y luego devolver una cadena que declare al ganador de la ronda así:"You Lose! Paper beats Rock"
+Escriba una NUEVA función llamada game(). Use la función anterior dentro de este para jugar un juego de 5 rondas que mantiene la puntuación e informa un ganador o perdedor al final.
