@@ -33,10 +33,6 @@
     background-color: rgb(119, 114, 114);
 }
 
-.interfaceHuman {
-    /* border: solid black; */
-}
-
 .scoreHuman {
     background: linear-gradient(rgb(175, 185, 175), rgb(255, 254, 254));
     height: 350px;
@@ -59,10 +55,6 @@
     color: white;
     background-color: rgb(126, 117, 117);
     border-radius: 10px;
-}
-
-.interfaceComputer {
-    
 }
 
 .scoreComputer {
