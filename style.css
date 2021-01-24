@@ -1,0 +1,24 @@
+* {
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    border: solid red 1px;
+    height: 100vh;
+}
+
+#human {
+    width: 40%;
+    height: 40vh;
+    border: solid black 1px;
+}
+
+.interfaceHuman {
+
+}
+
+.scoreHuman {
+    
+}
