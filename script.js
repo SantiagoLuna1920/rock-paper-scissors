@@ -33,7 +33,7 @@ function winRound(playerSelection,computerSelection) {
             /* alert("perdiste") */
             document.getElementById("congratulations").innerHTML=`<p>Perdiste esta ronda</p>`
             document.getElementById("imgHuman").innerHTML=`<img src="https://i.pinimg.com/originals/f2/9a/99/f29a995653ff0658cfcef654708a02fd.png" width="100px" height="100px" alt="">`
-            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
             document.getElementById("imgComputerS").innerHTML=`<h2>Score:</h2>
             <p style="font-size: 40px;" class="pScore">
                 ${computerWins}/5
@@ -53,7 +53,7 @@ function winRound(playerSelection,computerSelection) {
             humanWins++;
             document.getElementById("congratulations").innerHTML=`<p>Ganaste esta ronda</p>`
             document.getElementById("imgHuman").innerHTML=`<img src="https://i.pinimg.com/originals/70/90/60/709060bebc6958a3412eb23b1f1da537.png" width="100px" height="100px" alt="">`
-            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
             document.getElementById("imgHumanS").innerHTML=`<h2>Score:</h2>
             <p style="font-size: 40px;" class="pScore">
                 ${humanWins}/5
@@ -72,7 +72,7 @@ function winRound(playerSelection,computerSelection) {
         case 3: if(computerSelection===2) {
             computerWins++;
             document.getElementById("congratulations").innerHTML=`<p>Perdiste esta ronda</p>`//papel
-            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
             document.getElementById("imgComputer").innerHTML=`<img src="https://i.pinimg.com/originals/70/90/60/709060bebc6958a3412eb23b1f1da537.png" width="100px" height="100px" alt="">`
             document.getElementById("imgComputerS").innerHTML=`<h2>Score:</h2>
             <p style="font-size: 40px;" class="pScore">
@@ -80,12 +80,12 @@ function winRound(playerSelection,computerSelection) {
             </p> `
         } else if (computerSelection===3) {
             document.getElementById("congratulations").innerHTML=`<p>Empatas en esta ronda</p>`//tijera
-            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
-            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgComputer").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
         } else {
             humanWins++;
             document.getElementById("congratulations").innerHTML=`<p>Ganaste esta ronda</p>`
-            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd1.png" width="100px" height="100px" alt="">`
+            document.getElementById("imgHuman").innerHTML=`<img src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2bd0.png" width="100px" height="100px" alt="">`
             document.getElementById("imgComputer").innerHTML=`<img src="https://i.pinimg.com/originals/f2/9a/99/f29a995653ff0658cfcef654708a02fd.png" width="100px" height="100px" alt="">`
             document.getElementById("imgHumanS").innerHTML=`<h2>Score:</h2>
             <p style="font-size: 40px;" class="pScore">
